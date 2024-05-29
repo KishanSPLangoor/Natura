@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+    h1{
+        text-align: center;
+        color: red;
+        text-shadow: 1px 2px black;
+    
+        
+    }
+    @mixin bordered ($color, $width){
+        border: $color solid  $width;
+    }
+   .myNote{
+    @include bordered(2px ,red);
+   }
+   .myNote2{
+    @include bordered(blue,4px )
+   }
+    
+}

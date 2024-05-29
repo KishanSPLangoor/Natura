@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: cadetblue;
+    margin: 50px;
+}
+#fang {
+        box-sizing: border-box; 
+        width: 250px; 
+        height: 150px; 
+        background-color: rgb(223, 179, 134); 
+        color: rgb(198, 30, 30); 
+        margin: auto; 
+        font-size: 15px; 
+        font-family: sans-serif; 
+        text-align: center; 
+        padding: 20px; 
+}
+form {
+   
+    background-color: blueviolet;
+    border: 2px solid;
+      
+      max-width:fit-content ;
+      max-height:fit-content;
+      /* margin-right: auto;
+      margin-left: auto; */
+}
+form p {
+    color: rgb(58, 33, 29);
+    font-size: 200%;
+}
+h1{
+    color: rgb(103, 14, 213);
+}
+table {
+    border: 2px solid rgb(2, 71, 2);
+    margin: 20px auto;
+
+}
+table table {
+    border: 2px solid rgb(6, 6, 118);
+    margin: 10px auto;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+#top{
+    text-align: left;
+}

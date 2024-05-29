@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 576px) {
+    /* header  */
+
+   .header{
+    width: 100%;
+    flex-direction: column;
+   }
+   .header .header_logo {
+    width: 100%;
+    text-align: center;
+   }
+   .header .header_nav {
+    display: inline-flex;
+    align-items: center;
+   }
+   .header .header_nav nav ul {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .header .header_nav { 
+    flex-direction: column;
+   }
+   .main_banner .main_banner_img img {
+    height: 500px;
+    width: 100%;
+   }
+   .main_banner .main_banner_content{
+
+    text-align: center;
+   }
+   .natura_container {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+   }
+   .natura_container .child_natura_container2 {
+    width: 100%;
+    margin: 0 0 38px 0
+   }
+   .natura_container .child_natura_container1 {
+    width: 100%;
+   }
+   .natura_container .child_natura_container1 article h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+    width: 100%;
+   }
+   .natura_container .child_natura_container1 article .natura_container_paragraph {
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 100%;
+   }
+   .natura_container .child_natura_container1 {
+    background-image: url(/img/tomatoes.svg);
+    background-repeat: no-repeat;
+    background-position: 45% ;
+   }
+   .second_natura_container .second_natura_container_child1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    width: 70%;
+   }
+   .second_natura_container .second_natura_container_child1 h2::before {  
+    top: 0px; 
+   }
+    .second_natura_container .second_natura_container_child1 h2::after {
+    top: 0px; 
+   }
+   .second_natura_container .second_natura_container_child1 h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+    width: 100%;
+   }
+   .second_natura_container .second_natura_container_child2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+   }
+  .second_natura_container .second_natura_container_child2 .natura_child {
+    width: 80%;
+   }
+   .second_natura_container .second_natura_container_child2 .natura_child h3 {
+    font-size: xx-large;
+    letter-spacing: 0;
+   }
+    
+    
+}  

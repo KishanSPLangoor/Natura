@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple IDs demo</title>
+</head>
+<body>
+    <div id="element1">This is element 1</div>
+    <div id="element2">This is element 2</div>
+    <div id="element3">This is element 3</div>
+
+    <script>
+        const element1 = document.getElementById('element1');
+        const element2 = document.getElementById('element2');
+        const element3 = document.getElementById('element3');
+
+        element1.textContent = 'Updated Element 1';
+        element2.textContent = 'Updated Element 2';
+        element3.textContent = 'Updated Element 3';
+
+        element1.addEventListener('click', () => {
+            alert('You clicked Element 1!');
+        });
+
+        element2.addEventListener('mouseover', () => {
+            element2.style.backgroundColor = 'blue ';
+        });
+
+        element3.addEventListener('mouseout', () => {
+            element3.style.color = 'red';
+        });
+    </script>
+</body>
+</html>

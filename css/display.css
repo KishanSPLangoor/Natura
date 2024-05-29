@@ -1,0 +1,25 @@
+.block{
+    display: block;
+    outline: 2px solid red ;
+    width: 50%;
+    
+}
+.inline-element {
+    outline: 3px solid blue;
+    display: inline;
+    background-color: azure;
+    width: 50%;  /* in inline element width or heigth won't effect  */
+   
+}
+.inline-element a {
+    outline: 1px solid black;
+    background-color: white;
+
+}
+.inline-block {
+    display: inline-block;
+    background-color: lightblue;
+    color: blue;
+    width: 20%;
+    height: 20%;
+}

@@ -1,0 +1,731 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: Colby Compressed, Helvetica Neue, Arial, sans-serif;
+}
+
+.body_wrapper {
+    max-width: 100%; 
+    /* min-width: 100%;  */
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 36px;
+    max-width: 1640px;
+    width: 100%;
+    position: relative;    
+ }
+ .header .header_logo {
+    width: 20%;
+ }
+ .header .header_nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 80%;  
+ }
+ nav{
+    /* display: flex; */
+    font-size: 22px;
+    letter-spacing: -1px;
+ }
+nav ul {
+    display: flex;
+    list-style: none; 
+}
+nav li {
+    padding: 15px 20px 10px;
+}
+.header_nav a { 
+    color: #000;
+    padding: 0px 0px 10px;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-weight: 400;
+    text-decoration: none;
+ }
+.header_nav li:last-child {
+    background-color: #c00020;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+li:last-child a {
+    color: #fff;
+}
+main {
+    max-width: 100%;
+}
+.main_banner {
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 400px;
+}
+ .main_banner_img img {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    filter: brightness(65%);
+    max-width: 100%;
+ }
+ .main_banner_content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%; 
+    padding: 0;
+ }
+ .main_banner_content h1 {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-size: 2.6rem;
+    margin: 1rem 0 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    max-width: 892px;
+    padding: 0 32px;
+    letter-spacing: -2px;
+ }
+ .main_banner_content p {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+    padding: 0 36px;
+    letter-spacing: 0px;
+ }
+ .main_banner_content a {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    color: #c00020;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration:none ;
+    text-align: center;
+  
+ }
+ .main_banner_anchor {
+    text-align: center;
+    /* position: absolute; */
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 36px;
+    margin-bottom: 56px;
+    border: none;
+    min-width: 10%;
+}
+ .natura_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 36px;
+    max-width: 1640px;
+    margin: 0 auto;
+    margin-top: 7.4rem;
+    margin-bottom: 5rem;
+ }
+ .child_natura_container1{
+    background-image: url(/img/tomatoes.svg);
+    background-repeat: no-repeat;
+    background-position: 104% ;
+    width:50%;
+ }
+ .child_natura_container1 article h2
+ {
+    position: relative;
+    text-transform: uppercase;
+    max-width: 380px;
+    margin-top: 30px;
+    font-size: 34px;
+    color: #c00020;
+    display: inline-flex;
+    font-weight: 400;
+    letter-spacing: -4px;
+ }
+ /* .child_natura_container1 article h2 .color {
+    background-color: yellow;
+    height:  26px;   
+ } */
+ .child_natura_container1 article h3 {
+    text-transform: uppercase;
+    max-width: 380px; 
+    font-size: 34px;
+    color: #c00020; 
+    font-weight: 400;
+    letter-spacing: -2px;
+ }
+ .child_natura_container1 article h2::before {
+    background-image: url(/img/green-underline.svg);
+    left: -36px;
+    top: -60%;
+    height: 10px;
+    content: "";
+    position: absolute;
+    width: 108%;
+    /* background-position: inherit;*/
+    background-repeat: repeat-x; 
+}
+.child_natura_container1 article h2::after {
+    background-image: url(/img/drop1.svg);
+    left: 100%;
+    top: -100%;
+    height: 40px;
+    content: "";
+    position: absolute;
+    width: 12%;
+    /* background-position: inherit; */
+    background-repeat: no-repeat;
+}
+
+ .child_natura_container1 article p {
+    color: #340009;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 68%;
+ }
+ .child_natura_container1 .natura_container_anchor a {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+ }
+ .child_natura_container1 .natura_container_anchor {
+    display: inline-flex;
+    background-color: #c00020;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px 52px;
+    min-width: 30%;
+ }
+ .child_natura_container2{
+    width: 60%;
+ }
+ .child_natura_container2 img{
+    max-width: 100%;
+    /* height: auto; */
+    width: 100%;
+    border-radius: 20px;
+ }
+ .second_natura_container {
+  
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    max-width: 1640px;
+    padding: 0px 36px;
+    width: 100%;
+ }
+ .second_natura_container_child1 {
+    width: 48%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .second_natura_container_child1 h2 {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    position: relative;
+    color: #c00020;
+    display: block;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 0 50px 15px 50px;
+    text-align: center;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+ }
+ .second_natura_container_child1 h2::before {  
+    background-image: url(/img/leaf-icon.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    left: -78px;
+    width: 58px;
+ }
+ .second_natura_container_child1 h2::after {
+    background-image: url(/img/leaf-icon.svg);
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 58px;
+    top: 8px;
+    left: 104%;
+
+ }
+ .second_natura_container_child1 p {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ .second_natura_container_child2 {
+    display: flex;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+ }
+ .second_natura_container_child2 .natura_child {
+    border: #340009 solid 1px;
+    border-radius: 10px;
+    padding:  42px 50px 42px 50px;
+    text-align: center;
+     width: 45%;
+ }
+ .second_natura_container .natura_child img {
+    width: 100%;
+ }
+ .second_natura_container .natura_child h3 {
+    color: #340009;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 45px;
+    letter-spacing: -4.5px;
+    font-weight: 400;
+ }
+ .second_natura_container .natura_child .natura_child_anchor a {
+    /*width: auto;
+    height: auto;
+     display: flex;
+    justify-content: center; */
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .second_natura_container .natura_child .natura_child_anchor {
+    display: inline-flex;
+    margin-bottom: 20px;
+    background-color: #c00020;
+    border-radius: 10px;
+    padding: 20px 52px;
+    min-width: 30%;
+ }
+ .third_natura_container {
+    display: block;
+    position: relative;
+    max-width: 1640px;
+    padding: 0 36px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .third_natura_container h2 {
+    display: inline-flex;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 400;
+    color: #c00020;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+ }
+.third_natura_container p {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #340009;
+}
+.third_natura_container h2::after {
+    background-image: url(/img/drop.svg);
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 58px;
+    top: 1%;
+    left: 47%;
+
+}
+.third_natura_container_child {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    column-gap: 16px;
+    row-gap: 50px;
+    margin-bottom: 30px;
+}
+.third_natura_container_child .third_natura_child img {
+    display: block;
+    border-radius: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+.third_natura_container_child .third_natura_child h3{
+    position: absolute;
+    color: #fff;
+    background: #8ba800;
+    border: #8ba800 solid 1px;
+    padding: 15px 36px;
+    font-weight: 400;
+    border-radius: 0 36px 36px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    top: 26%;
+
+}
+
+.third_natura_child{
+    width: 33.33%;
+}
+.third_natura_child h4 {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #c00020;
+    letter-spacing: -2px;
+
+}
+.third_natura_child p{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #340009;
+    margin: 20px 0; 
+}
+.third_natura_child .third_natura_child_anchor {
+    display: block;
+    text-align: center;
+    min-width: 30%;
+}
+.third_natura_child .third_natura_child_anchor a {
+    color: #340009;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+.third_natura_container .third_natura_container_anchor {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #c00020;
+    border-radius: 10px;
+    padding: 20px 52px;
+    width: fit-content;
+    margin: 0 auto;
+    min-width: 10%;
+}
+.third_natura_container .third_natura_container_anchor a { 
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.forth_natura_container {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 36px;
+    padding-right: 36px;  
+    column-gap: 10px;
+    max-width: 100%;
+
+}
+.forth_natura_width {
+    width: 33.33%;
+}
+.forth_natura_child {
+    position: relative;
+}
+.forth_natura_child  p::after {
+    background-image: url(/img/green-underline.svg);
+    left: 0;
+    bottom: 50%;
+    height: 10px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-repeat: repeat-x;
+}
+.forth_natura_child h2 {
+    color: #c00020;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    margin: 30px 0px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.forth_natura_child p {
+    color: #340009;
+    margin: 36px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.forth_natura_child .forth_natura_child_anchor {
+    display: inline-flex;
+    margin-bottom: 20px;
+    background-color: #c00020;
+    border-radius: 10px;
+    padding: 20px 52px;
+    min-width: 30%;
+}
+.forth_natura_child .forth_natura_child_anchor a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.forth_natura_child1 {
+    position: relative;
+ 
+    border: #340009 solid 0.2px;
+    border-radius: 10px;
+}
+.forth_natura_child1 h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 18px 20px;
+    border: #c00020 solid 1px;
+    border-radius: 0 30px 30px 0;
+    background: #c00020;
+    top: 6%;
+    position: absolute;
+    
+}
+.forth_natura_child1 img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.forth_event {
+  padding: 30px 50px;
+}
+.forth_event h4 {
+    color: #c00020;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+.forth_event p {
+    color: #340009;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.fifth_natura_container {
+    padding: 0 36px;
+    padding-bottom: 40px;
+    max-width: 1640px;
+    margin: 0 auto;
+
+}
+.fifth_natura_child {
+    position: relative;
+}
+.fifth_natura_child  h2::before {
+    background-image: url(/img/green-underline.svg);
+    left: 24%;
+    padding: 1px;
+    top: 30%;
+    height: 10px;
+    content: "";
+    position: absolute;
+    width: 13%;
+    background-repeat: repeat-x;
+}
+ .fifth_natura_child  h2::after {
+    background-image: url(/img/green-underline.svg);
+    right: 24%;
+    top: 30%;
+    padding: 1px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    width: 13%;
+    background-repeat: repeat-x;
+} 
+.fifth_natura_container .fifth_natura_child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth_natura_container .fifth_natura_child h2 {
+    color: #c00020;
+    font-size: 45px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 80px 40px 20px 40px;
+}
+.fifth_natura_container .fifth_natura_child p {
+    color: #340009;
+    font-size: 20px;
+    font-weight: 400;
+    width: 58%;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+.fifth_natura_container .fifth_natura_child_container {
+ display: flex;
+ column-gap: 10px;
+ padding: 20px 58px 60px 58px;
+}
+.fifth_natura_container .fifth_natura_child_container .fifth_child {
+    width: 25%;
+}
+.fifth_natura_container .fifth_natura_child_container .fifth_child img {
+    width: 100%;
+    max-width: 100%;
+}
+footer {
+    max-width: 100%;
+
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_container .footer_container_part_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin: 0 78px; */
+    max-width: 100%;
+    width: 100%;
+    padding: 118px 36px 74px 36px;
+    background-color: rgb(253, 245, 229);
+}
+.footer_container_part_1 .footer_container_child1 {
+    width: 20%;
+}
+.footer_container_part_1 .footer_container_child1 img {
+    width: 100%;
+
+}
+.footer_container_part_1 .footer_container_child2 {
+    padding-left: 40%;
+    max-width: 100%;
+    width: 80%;
+}
+.footer_inner_child1 {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    border-bottom: #340009 solid 1px;
+}
+.footer_inner_child1 ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: #340009 solid 1px;
+}
+.footer_inner_child1 ul li:last-child {
+    border-bottom: none;
+}
+.footer_inner_child1 ul li a {
+    text-decoration: none;
+    text-wrap: wrap;
+    color: #340009;
+    font-size: 20px;
+    font-weight: 400; 
+}
+.footer_inner_child2 {
+    color: #340009;
+    font-size: 20px;
+    font-weight: 400; 
+    padding-bottom: 20px;
+}
+.footer_inner_child2 p {
+    margin: 20px 0;
+}
+.footer_inner_child2 a {
+    color: #340009;
+}
+.footer_unilever {
+    display: flex;
+    background-color: #c00020;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 36px;
+}
+.footer_unilever p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.footer_unilever img {
+    max-width: 100%;
+    width: 75px;
+}
+
+
+.footer_container{
+    position: relative;
+}
+
+.footer_container_child1::before{
+    background-image: url(/img/footer_right1.svg);
+    left: 0;
+
+    top: 0;
+    height: 72%;
+    content: "";
+    position: absolute;
+    width: 22px;
+    /* background-repeat: repeat-y; */
+}
+ 
+ 
+.footer_container_child1::after{
+    background-image: url(/img/footer_left1.svg);
+    /* display: block; */
+    right: 0;
+    transform: scaleX(-1);
+    top: 0;
+    height: 72%;
+    content: "";
+    position: absolute;
+    width: 21px;
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+}
+
+
+

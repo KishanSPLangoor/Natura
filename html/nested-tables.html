@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nested.css">
+    <title>Demo for assignment</title>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "This is internal  java Script";
+        }
+        </script>
+</head>
+<body>
+        <p id="demo">Demo For internal Script tag</p>
+        <button type="button" onclick="myFunction()">Try it</button>
+
+        <form method="get"  id="top">
+            <p >Demo for forms</p><hr>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+        <p style="font-size: large;"><b>Please Choose your gender</b></p>
+        <input type="radio" id="male" name="gender" value="MALE" required>Male 
+        <input type="radio" id="female" name="gender" value="FEMALE" required>Female <br><br>
+        Choose a language: <select name="language" id="lang">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="JavaScript">Java Script</option>
+        </select><br><br>
+        <button type="button" onclick="alert('Press Ok')">Click Me!</button> <br> <br>
+        <input list="browsers">
+        <datalist id="browsers">
+         <option value="Edge">
+         <option value="Firefox">
+         <option value="Chrome">
+         <option value="Opera">
+         <option value="Safari">
+         </datalist>   <br><br>     
+         DoB: <input type="date" id="dob" name="dob"><br><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+
+    </form>
+    <div id="fang">
+        <p class="external">Which type of script it is...?</p>
+        <script src="nested.js"></script>
+
+    </div>
+    <div>
+        <style>
+            div{
+                
+                background-color:cyan;
+                border: 2px solid;
+               
+               }
+        </style>
+
+        <h1><b>Nested table</b></h1>
+        <table border="2">
+            <tr>
+                <td>Table 1 row 1 col 1</td>
+                <td>Table 1 col 2
+                <table border="2">
+                    <tr> 
+                        <td>row 1 col 1</td>
+                        <td>row 1 col 2</td>
+                    </tr>
+                    <tr> 
+                        <td>row 2 col 1</td>
+                        <td>row 2 col 2</td>
+                    </tr>
+                    <tr> 
+                        <td>row 3 col 1</td>
+                        <td>row 3 col 2</td>
+                    </tr>
+                </table>
+               </td>
+            </tr>
+            <tr> <td>Table 1 row 2 col 1</td>
+            <td>Table 1 row 1 col 2</td></tr>
+    
+        </table>
+    
+        <dl>
+            <dt><h2 style="color: darkcyan;">Defnation Tag With iframes</h2></dt>
+            <dt><h3 style="color: rebeccapurple;">About Langoor Company</h2></dt>
+            <dt style="font-size: larger;">company Name : langoor and its website</dt>
+            <dd><iframe src="https://www.langoor.com/" frameborder="1"></iframe></dd>
+            <dd style="font-size: larger;">company contact and it website page </dd>
+            <dd> <iframe src="https://www.langoor.com/#contact-us" frameborder="1"></iframe></dd>
+            <!-- <dd style="font-size: larger;">company work and its website page</dd>
+            <dd> <iframe src="https://www.langoor.com/work" frameborder="1"></iframe></dd> -->
+        </dl>
+    </div> 
+
+    
+</body>
+</html>

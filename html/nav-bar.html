@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="nav-bar.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="https://www.langoor.com/">Home</a></li>
+            <li><a href="https://www.langoor.com/#contact-us">Contact</a></li>
+            <li><a href="https://www.langoor.com/about-us">About</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0);" class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="https://www.langoor.com/">Home</a>
+                    <a href="https://www.langoor.com/#contact-us">Contact</a>
+                    <a href="https://www.langoor.com/about-us">About</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <center>
+        <div>
+            <h1 style="color: crimson;">IT’S ALL ABOUT LOVE</h1>
+            <p>Our love stories will renew your faith in love,<br>plus a special invitation for all the single ladies!</p>
+            <img src="/img/1.jpg" alt="top" width="655px">
+            <div id="redbox" class="box">
+                <div>
+                    <img src="/img/2.jpg" alt="down">
+                </div>
+                <div>
+                    <h3 style="color: aliceblue;">FREE VIRTUAL RETREAT:</h3>
+                    <p><i>Sisters Rising Bravely In A Culture Of Never Enough</i></p>
+                    <p style="color: aliceblue;">If you crave a deeper sense of connection with yourself and others; have put yourself last for 
+                        far too long; and are ready to show up in the arena to answer your personal call to courage,
+                         please join a group of brave sisters for Sister’s Rising Bravely in a Culture of Never Enough™, 
+                         a 6-hour virtual retreat centered around the soul-stirring, courage-building work of New York Times 
+                         bestselling author, Dr. Brené Brown. We have limited space, so sign up today to join us on either
+                          February 24 or March 2 from 10:30 AM to 4:30 PM.</p>
+                </div>
+            </div>
+            <div id="blackbox" class="box">
+                <div>
+                    <h3 style="color: aliceblue;">NORTH GEORGIA RETREAT:</h3>
+                    <p style="color: red"><i>Remembering Who I Am</i></p>
+                    <p style="color: aliceblue;">Have the demands of life made you forget who you are and what you are capable of? Whether 
+                        it’s navigating your career, marriage, relationships, singlehood, motherhood, family dynamics, aging, caregiving, 
+                        health challenges, grief, or any of life’s other complexities that have left you in need of a reset — remember, YOU ARE NOT ALONE.
+                        Join us on August 23-25, 2024 for a transformational journey in the North Georgia Mountains, where we will silence
+                         the “shoulds” and “have tos” and “what ifs” to hear the voice that has been silenced for far too long. . . your own.</p>
+                    </div>
+                    <div>
+                        <img src="/img/2.jpg" alt="down">
+                    </div>
+            </div>
+        
+        
+        <div class="box" ><p id="mash" style="background-color: #060606" >Copyright (C) 2024 YANASISTERS. All rights reserved. <br>
+            YANA (You Are Not Alone) SISTERS is a community of women dedicated to inspiring, uplifting, and encouraging each other through meetups, retreats, an online community and other activities. <br>
+            
+            YANASISTERS
+            
+            P.O. Box 311769
+            
+            Atlanta, Georgia 31131 <br>
+            
+            Add us to your address book
+            
+            View in your browser <br> |Update your preferences| <br> Unsubscribe</p>
+       </div>
+    </div>
+    </center>
+    <script>
+        // const mobileMenu = document.getElementById('mobile-menu');
+        // const navList = document.querySelector('.nav-list');
+        // mobileMenu.addEventListener('click', () => {
+        //     navList.classList.toggle('active');
+        // });
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+        mobileMenu.addEventListener('click', () => {
+         navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
