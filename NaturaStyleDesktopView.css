@@ -1,0 +1,515 @@
+@media only screen and (min-width: 1024px) {
+    header .header {
+        display: flex;
+        align-items: center;
+        padding: 20px 36px;
+    }
+
+    .header .header_logo {
+        width: 20%;
+    }
+
+    .header .header_logo img {
+        width: 100%;
+    }
+
+    .header .header_nav {
+        width: 80%;
+    }
+
+    .header .header_nav nav {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .header .header_nav nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .header .header_nav nav ul li {
+        padding: 15px 20px 10px;
+    }
+
+    .header .header_nav nav ul li a {
+        font-size: 30px;
+        padding: 0px 0px 10px;
+        font-weight: 400;
+    }
+
+    .header .header_nav nav ul li:last-child {
+        border-radius: 10px;
+        padding: 15px 20px;
+    }
+
+    .main_banner .main_banner_img img {
+        width: 100%;
+        filter: brightness(65%);
+        max-width: 100%;
+    }
+
+    .main_banner {
+        position: relative;
+    }
+
+    .main_banner .main_banner_content {
+        position: absolute;
+        display: grid;
+        justify-items: center;
+        width: 100%;
+        height: 210px;
+        top: 52%;
+    }
+
+    .main_banner .main_banner_content h1 {
+        font-size: 4.6rem;
+        margin: 1rem 0 1.6rem;
+        font-weight: 400;
+        padding: 0 32px;
+    }
+
+    .main_banner .main_banner_content p {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        font-weight: 400;
+        padding: 0 36px;
+    }
+
+    .main_banner .main_banner_content a {
+        font-size: 2.2rem;
+    }
+
+    .main_banner .main_banner_content .main_banner_anchor {
+        padding: 20px 48px;
+        min-width: 16%;
+    }
+
+    .natura_container {
+        display: flex;
+        align-items: center;
+        padding: 0 36px;
+        margin-top: 7.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .natura_container .child_natura_container1 {
+        background-image: url(/img/tomatoes.svg);
+        background-repeat: no-repeat;
+        background-position: 104%;
+        width: 50%;
+    }
+
+    .natura_container .child_natura_container1 article h2 {
+        position: relative;
+        max-width: 350px;
+        text-align: left;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .natura_container .child_natura_container1 article h2::before {
+        background-image: url(/img/green-underline.svg);
+        left: -36px;
+        top: -42%;
+        height: 10px;
+        content: "";
+        position: absolute;
+        width: 108%;
+        background-repeat: repeat-x;
+    }
+
+    .natura_container .child_natura_container1 article h2::after {
+        background-image: url(/img/drop1.svg);
+        left: 100%;
+        top: -56%;
+        height: 40px;
+        content: "";
+        position: absolute;
+        width: 12%;
+        background-repeat: no-repeat;
+    }
+
+    .natura_container .child_natura_container1 article p {
+        margin: 20px 0px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 400;
+        max-width: 68%;
+    }
+
+    .natura_container .child_natura_container1 .natura_container_anchor a {
+        font-size: 22px;
+    }
+
+    .natura_container .child_natura_container1 .natura_container_anchor {
+        width: fit-content;
+        padding: 20px 52px;
+        min-width: 30%;
+    }
+
+    .natura_container .child_natura_container2 {
+        width: 50%;
+    }
+
+    .natura_container .child_natura_container2 img {
+        max-width: 100%;
+    }
+
+    .second_natura_container .second_natura_container_child1 {
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    .second_natura_container .second_natura_container_child2 {
+        display: grid;
+        padding: 30px 56px;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .second_natura_container .second_natura_container_child1 h2::before {
+        background-image: url(/img/leaf-icon.svg);
+        background-repeat: no-repeat;
+        content: "";
+        height: 45px;
+        position: absolute;
+        top: 10px;
+        left: -106px;
+        width: 58px;
+    }
+
+    .second_natura_container .second_natura_container_child1 h2::after {
+        background-image: url(/img/leaf-icon.svg);
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 58px;
+        top: 8px;
+        left: 110%;
+    }
+
+    .second_natura_container .second_natura_container_child1 h2 {
+        position: relative;
+        font-size: 56px;
+        font-weight: 400;
+    }
+
+    .second_natura_container .second_natura_container_child1 p {
+        width: 88%;
+        font-size: 36px;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child1 {
+        grid-column: 1;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child1,
+    .second_natura_container .second_natura_container_child2 .natura_child2 {
+        padding: 42px 50px 42px 50px;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child2 {
+        grid-column: 2;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child1 h3,
+    .second_natura_container .second_natura_container_child2 .natura_child2 h3 {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child1 .natura_child_anchor a,
+    .second_natura_container .second_natura_container_child2 .natura_child2 .natura_child_anchor a {
+        font-size: 22px;
+    }
+
+    .second_natura_container .second_natura_container_child2 .natura_child1 .natura_child_anchor,
+    .second_natura_container .second_natura_container_child2 .natura_child2 .natura_child_anchor {
+        display: inline-grid;
+        padding: 20px 52px;
+        min-width: 30%;
+    }
+
+    .third_natura_container {
+        position: relative;
+    }
+
+    .third_natura_container .third_grid_child1 h2 {
+        text-align: left;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .third_natura_container .third_grid_child1 p {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .third_natura_container .third_grid_child1 h2::after {
+        background-image: url(/img/drop.svg);
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 58px;
+        top: -3%;
+        left: 25%;
+    }
+
+    .third_natura_container .third_natura_container_child {
+        display: flex;
+        margin: auto;
+        column-gap: 16px;
+        margin-bottom: 30px;
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child h3 {
+        padding: 15px 36px;
+        font-size: 24px;
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child {
+        width: 33.33%;
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child h4 {
+        margin-top: 20px;
+        font-size: 38px;
+        font-weight: 400;
+
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child p {
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child .third_natura_child_anchor {
+        min-width: 30%;
+    }
+
+    .third_natura_container .third_natura_container_child .third_natura_child .third_natura_child_anchor a {
+        font-size: 28px;
+    }
+
+    .third_natura_container .third_natura_container_anchor {
+        padding: 20px 52px;
+        width: fit-content;
+        margin: 0 auto;
+        min-width: 10%;
+    }
+
+    .third_natura_container .third_natura_container_anchor a {
+        font-size: 22px;
+    }
+
+    .forth_natura_container {
+        display: flex;
+        padding-top: 60px;
+        column-gap: 10px;
+    }
+
+    .forth_natura_container .forth_natura_width {
+        width: 33.33%;
+    }
+
+    .forth_natura_container .forth_natura_child {
+        position: relative;
+    }
+
+    .forth_natura_container .forth_natura_child p::after {
+        background-image: url(/img/green-underline.svg);
+        left: 0;
+        bottom: 50%;
+        height: 10px;
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-repeat: repeat-x;
+    }
+
+    .forth_natura_container .forth_natura_child h2 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .forth_natura_container .forth_natura_child p {
+        color: #340009;
+        text-align: left;
+        margin: 36px 0px;
+        font-size: 26px;
+    }
+
+    .forth_natura_container .forth_natura_child .forth_natura_child_anchor {
+        padding: 20px 52px;
+        width: fit-content;
+        text-align: left;
+        min-width: 30%;
+    }
+
+    .forth_natura_container .forth_natura_child .forth_natura_child_anchor a {
+        font-size: 22px;
+
+    }
+
+    .forth_natura_child1 h3 {
+        font-size: 28px;
+        font-weight: 400;
+        padding: 14px 20px;
+    }
+
+    .forth_natura_child1 img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .forth_event {
+        padding: 30px 50px;
+    }
+
+    .forth_event h4 {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .forth_event p {
+        font-size: 34px;
+    }
+
+    .fifth_natura_child h2::before {
+        background-image: url(/img/green-underline.svg);
+        left: 30%;
+        padding: 1px;
+        top: 20%;
+        height: 6px;
+        content: "";
+        position: absolute;
+        width: 13%;
+        background-repeat: repeat-x;
+    }
+
+    .fifth_natura_child h2::after {
+        background-image: url(/img/green-underline.svg);
+        right: 30%;
+        top: 20%;
+        padding: 1px;
+        height: 6px;
+        content: "";
+        position: absolute;
+        width: 13%;
+        background-repeat: repeat-x;
+    }
+
+    .fifth_natura_container .fifth_natura_child {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fifth_natura_container .fifth_natura_child h2 {
+        color: #c00020;
+        font-size: 50px;
+        width: 25%;
+        font-weight: 400;
+        margin: 46px 40px 20px 40px;
+    }
+
+    .fifth_natura_container .fifth_natura_child p {
+        font-size: 30px;
+        font-weight: 400;
+        width: 38%;
+
+    }
+
+    .fifth_natura_container .fifth_natura_child_container {
+        display: flex;
+        column-gap: 10px;
+        padding: 20px 58px 60px 58px;
+    }
+
+    .fifth_natura_container .fifth_natura_child_container .fifth_child {
+        width: 25%;
+    }
+
+    .fifth_natura_container .fifth_natura_child_container .fifth_child img {
+        width: 100%;
+        max-width: 100%;
+    } 
+    .footer_container {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .footer_container .footer_container_part_1 {
+        display: flex;
+    }
+    
+    .footer_container_part_1 .footer_container_child2 {
+        padding-left: 38%;
+        padding-right: 5%;
+       max-width: 100%;
+       width: 80%;
+    }
+    .footer_inner_child1 {
+        display: flex;
+        column-gap: 30px;
+        padding-bottom: 20px;
+        border-bottom: #340009 solid 1px;
+    }
+    .footer_inner_child1 ul li {
+        list-style: none;
+        padding: 10px 0;
+        border-bottom: #340009 solid 1px;
+    }
+    .footer_inner_child1 ul li:last-child {
+        border-bottom: none;
+    }
+    .footer_inner_child1 ul li a {
+        text-decoration: none;
+        text-wrap: wrap;
+        font-size: 30px;
+        font-weight: 400; 
+    }
+    .footer_inner_child2 {
+        font-size: 30px;
+        font-weight: 400; 
+        padding-bottom: 20px;
+    }
+    .footer_inner_child2 p {
+        margin: 20px 0;
+    }
+    
+    .footer_unilever p {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .footer_container_child1::before{
+        background-image: url(/img/footer_right1.svg);
+        left: 0;
+        top: 0;
+        height: 74%;
+        content: "";
+        position: absolute;
+        width: 22px;
+    }
+     
+     
+    .footer_container_child1::after{
+        background-image: url(/img/footer_left1.svg);
+        right: 0;
+        transform: scaleX(-1);
+        top: 0;
+        height: 74%;
+        content: "";
+        position: absolute;
+        width: 21px;
+       
+    }
+
+}
